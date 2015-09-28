@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{
+    "email": "jacob@jaws.com",
+    "password": "password"
+}' 'https://r5bh8mewz5.execute-api.us-west-2.amazonaws.com/dev/users/create'
